@@ -1,0 +1,108 @@
+* {
+  scroll-behavior: auto;
+}
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(70, 252, 195, 1) 100%
+  );
+  width: 100%;
+  height: 100%;
+  overflow: -moz-hidden-unscrollable;
+  font-size: medium;
+}
+.home-section {
+  background: linear-gradient(to top, aqua 0%, rgba(255, 255, 255) 25%);
+  height: 100%;
+  margin: 0 !important;
+}
+.navbar-brand {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: fixed;
+  background-color: rgba(70, 252, 195, 1);
+}
+.product {
+  width: 17%;
+  height: min-content;
+  margin: 20px;
+  padding: 20px;
+  background-color: transparent;
+}
+.iconos {
+  height: auto;
+  gap: 45px;
+}
+.slogan {
+  font-size: 190%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 3%;
+}
+.eolic-section {
+  background-image: linear-gradient(
+    to bottom,
+    aqua 0%,
+    rgba(255, 255, 255) 25%
+  );
+}
+.eolica {
+  text-decoration: none;
+  color: black;
+}
+.gif {
+  width: 22rem;
+  height: 22rem;
+  background-image: url(molino-unscreen.gif);
+  background-size: cover;
+  margin-top: 15%;
+  margin-left: 12%;
+}
+.gifi {
+  width: 30px;
+}
+.subir {
+  background: none;
+  border: none;
+}
+.solar-section {
+  background-image: linear-gradient(to top, aqua 0%, rgba(255, 255, 255) 25%);
+}
+.hidraulic-section {
+  background-image: linear-gradient(
+    to bottom,
+    aqua 0%,
+    rgba(255, 255, 255) 25%
+  );
+}
+.titlestyle {
+  color: rgb(40, 7, 130);
+}
+.gifuf {
+  height: 22rem;
+  background-image: url(hidraulica.gif);
+  background-size: cover;
+  margin-top: 12%;
+  margin-left: 1%;
+  margin-right: 5%;
+}
+.claro{
+  width: 80%;
+}
+.footer{
+  height: 10vh;
+  text-decoration: none;
+  list-style: none;
+  background: rgb(194, 194, 194);
+}
+.li{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ulu{
+  margin: 5px 32px -10px 32px;
+}
+.etd{
+text-decoration: none;
+}

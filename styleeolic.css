@@ -1,0 +1,22 @@
+* {
+    scroll-behavior: smooth;
+  }
+body{
+    background: linear-gradient(to top, aqua 0%, rgba(255, 255, 255) 25%);
+    width: 100vw;
+    height: auto;
+ }
+ .img{
+    width:auto;
+    height: auto;
+ }
+ .product{
+    width:17%;
+    height:min-content;
+    margin: 20px;
+    padding: 20px;
+    background-color:transparent;
+ }
+ .img{
+    border:1px solid rgb(238, 238, 238);
+ }
